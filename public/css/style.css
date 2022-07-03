@@ -1,25 +1,25 @@
-body
-{
-    background-color: black;
-}
 p{
     margin: 10px 0 !important;
-}
-.fa-book-reader{
-    color:white
-}
-.lead{
-    color:white
-}
-.titlecard{
-    color:white
 }
 .login-container{
     width:400px;
     margin-top: 50px;
     text-align: center;
+    background-color: black !important;
+}
+.card{
+    height: 330px;
+    background-color: white !important;
+
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(255,0,255,0.8);
+}
+.card-content{
+    height: 250px;
 }
 .fa-small{
+    color: black !important;
     font-size: 16px !important
 }
 .btn-float{

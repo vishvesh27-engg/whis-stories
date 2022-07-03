@@ -1,6 +1,4 @@
-<h2><center>Dashboard</center></h2>
-{{!-- <h3>Welcome {{name}}</h3>
-<p><center>These are your stories</center></p> --}}
+<h2><center>My Stories</center></h2>
 {{#if stories}}
     <table class="striped">
     <thead>
@@ -8,7 +6,7 @@
             <th>Title</th>
             <th>Date</th>
             <th>Status</th>
-            <th></th>
+            <th>Edit/Delete</th>
         </tr>
     </thead>
     <tbody>
@@ -36,3 +34,6 @@
 {{else}}
 <p>You have not created any stories</p>
 {{/if}}
+<div class="fixed-action-btn">
+    <a href="/stories/add" class="btn-floating btn-large waves-effect waves-light red"><i class="fas fa-plus"></i></a>
+</div>
