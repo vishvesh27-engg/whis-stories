@@ -72,7 +72,7 @@ app.use(express.static(path.join(__dirname,'public')))
 
 
 //routes
-app.use('/',require('./routes/index'))
+app.use('//',require('./routes/index'))
 app.use('/auth',require('./routes/auth'))
 app.use('/stories',require('./routes/stories'))
 
